@@ -15,11 +15,13 @@ server:
   owners:
     - AwesomePinch
     - ZeroEpoch1969
+    - TominousKitten
 
   # All players whos how up as founder
   founders:
     - AwesomePinch
     - aggelosQQ
+    - TominousKitten
 
   # All players who show up as executive
   execs: []
@@ -44,7 +46,7 @@ motd:
 # The discord bot self verification system
 verification:
   # Should this be enabled?
-  enabled: false
+  enabled: true
   
   # If you do not know the bot token or don't have a bot created, you can do so at https://discordapp.com/developers/applications/me
   # A token must be specified if you have enabled verification
@@ -281,14 +283,14 @@ disable:
 
 
 # Enable misc. features
-landmines_enabled: false
-mp44_enabled: false
-tossmob_enabled: false
+landmines_enabled: true
+mp44_enabled: true
+tossmob_enabled: true
 lightning_swing_enabled: true
 
 # Moblimiter
 moblimiter:
-  enabled: false
+  enabled: true
   max: 2000
   disable:
     dragon: true
@@ -323,7 +325,7 @@ announcer:
   interval: 600
 
   # Prefix for all announcements
-  prefix: '&e&l[&7&lUnraveled&8&lMC&e&l] &6&l>> &e&l'
+  prefix: '&e&l[&7&lUnraveled&8&lMC&e&l] &6&l» &e&l'
 
   announcements:
     - 'Be sure to visit our forums at &6https://f.unraveledmc.com'
@@ -345,7 +347,7 @@ announcer:
     - 'Serial griefing and trolling will result in a permanent ban!'
     - 'Racism, nazism, and sexism are strictly forbidden!'
     - 'You can apply for master builder at https://f.unraveledmc.com'
-    - 'Ever see players with colored chat and custom login messages? You can get them by doing /shop!'
+    - 'Ever see players with coloured chat and custom login messages? You can get them by doing /shop!'
     - 'Vote for us to receive &6&l5 Coins&a&l! &b&l/vote'
 
 # Famous players - cannot join the server while onlinemode is turned off
